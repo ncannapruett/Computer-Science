@@ -8,8 +8,8 @@
 
 public static double totalSentiment(String fileName) 
 {
-   String file = textToString(fileName) String word = рс;
-   String space = р р;
+   String file = textToString(fileName) String word = "";
+   String space = " ";
    double totalVal = 0.0;
    
    for(int i = 0; i < file.length(); i++) 
@@ -20,7 +20,7 @@ public static double totalSentiment(String fileName)
          getPunctuation(word); 
          removePunctuation(word); 
          totalVal += sentimentVal(word); 
-         word = рс;
+         word = "";
       } 
       else 
       {
