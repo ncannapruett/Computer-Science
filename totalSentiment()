@@ -42,7 +42,7 @@ public static int starRating(String fileName)
    {
       return 2; 
    }
-   else if(totalSentiment < 5) 
+   else if(totalSentiment < 15) 
    {
       return 3;
    }
